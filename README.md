@@ -58,7 +58,70 @@ O sistema inclui:
 
 ## Como Executar
 
-(Adicionar instruções sobre como configurar e executar tanto a aplicação Java quanto o componente de IA)
+### Executando o Frontend Next.js
+
+O código do frontend está disponível em [http://github.com/Santlago/insightwise](http://github.com/Santlago/insightwise).
+
+1. **Clone o repositório**: Abra seu terminal e clone o repositório do frontend.
+
+    ```sh
+    git clone https://github.com/Santlago/insightwise.git
+    ```
+
+2. **Instale Node.js e npm**: Certifique-se de ter o Node.js e o npm instalados. Você pode baixá-los em [nodejs.org](https://nodejs.org/).
+
+3. **Navegue até o diretório do frontend**: Abra seu terminal e navegue até o diretório onde seu projeto Next.js está localizado.
+
+    ```sh
+    cd caminho/para/insightwise
+    ```
+
+4. **Instale as dependências**: Execute o seguinte comando para instalar todas as dependências necessárias.
+
+    ```sh
+    npm install
+    ```
+
+5. **Execute o servidor de desenvolvimento**: Inicie o servidor de desenvolvimento do Next.js com o seguinte comando.
+
+    ```sh
+    npm run dev
+    ```
+
+6. **Abra seu navegador**: Abra seu navegador e vá para `http://localhost:3000`. Você deve ver a aplicação Next.js em execução.
+
+### Executando o Backend Spring Boot
+
+O código do backend está disponível em [http://github.com/Santlago/apiinsightwise](http://github.com/Santlago/apiinsightwise).
+
+1. **Clone o repositório**: Abra seu terminal e clone o repositório do backend.
+
+    ```sh
+    git clone https://github.com/Santlago/apiinsightwise.git
+    ```
+
+2. **Instale Java e Maven**: Certifique-se de ter o Java (JDK) e o Maven instalados. Você pode baixar o JDK em [oracle.com](https://www.oracle.com/java/technologies/javase-downloads.html) e o Maven em [maven.apache.org](https://maven.apache.org/download.cgi).
+
+3. **Navegue até o diretório do backend**: Abra seu terminal e navegue até o diretório onde seu projeto Spring Boot está localizado.
+
+    ```sh
+    cd caminho/para/apiinsightwise
+    ```
+
+4. **Construa o projeto**: Execute o seguinte comando para construir seu projeto Spring Boot.
+
+    ```sh
+    mvn clean install
+    ```
+
+5. **Execute a aplicação**: Inicie a aplicação Spring Boot com o seguinte comando.
+
+    ```sh
+    mvn spring-boot:run
+    ```
+
+6. **Verifique o backend**: A aplicação Spring Boot deve estar em execução em `http://localhost:8080`.
+
 
 ## Contribuindo
 
