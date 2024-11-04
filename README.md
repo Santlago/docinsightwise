@@ -108,19 +108,25 @@ O código do backend está disponível em [http://github.com/Santlago/apiinsight
     cd caminho/para/apiinsightwise
     ```
 
-4. **Construa o projeto**: Execute o seguinte comando para construir seu projeto Spring Boot.
+4. **Execute o docker compose**: Execute o seguinte código.
+
+    ```sh
+    docker-compose up -d --build
+    ```
+
+5. **Construa o projeto**: Execute o seguinte comando para construir seu projeto Spring Boot.
 
     ```sh
     mvn clean install
     ```
 
-5. **Execute a aplicação**: Inicie a aplicação Spring Boot com o seguinte comando.
+6. **Execute a aplicação**: Inicie a aplicação Spring Boot com o seguinte comando.
 
     ```sh
     mvn spring-boot:run
     ```
 
-6. **Verifique o backend**: A aplicação Spring Boot deve estar em execução em `http://localhost:8080`.
+7. **Verifique o backend**: A aplicação Spring Boot deve estar em execução em `http://localhost:8080`.
 
 
 ## Contribuindo
