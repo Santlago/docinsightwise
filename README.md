@@ -20,7 +20,7 @@ O InsightWise visa fornecer aos gerentes uma visão clara de como os recursos di
 ## Vídeos de Demonstração
 
 - [Demonstração da Arquitetura de IA](https://youtu.be/CFcAKTyG8kE)
-- [Demonstração da Aplicação Web](https://www.youtube.com/watch?v=SWA94V1H_Y0)
+- [Demonstração da Aplicação Web](https://www.youtube.com/watch?v=IBiR6sNzt4A)
 
 ## Repositórios
 
